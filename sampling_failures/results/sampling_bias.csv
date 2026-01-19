@@ -1,0 +1,3 @@
+dataset,rows,default_rate,avg_income,avg_credit_score
+population,10000,0.12,59988.334682245506,650.8962836307038
+approved_only,5646,0.0,64301.60334627811,688.4933420707373

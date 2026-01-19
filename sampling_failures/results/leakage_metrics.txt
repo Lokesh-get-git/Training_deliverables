@@ -1,0 +1,9 @@
+DATA LEAKAGE EXPERIMENT RESULTS
+
+Model trained WITH leaked feature
+
+Accuracy: 100.00%
+
+Confusion Matrix:
+[[1019    0]
+ [   0  481]]

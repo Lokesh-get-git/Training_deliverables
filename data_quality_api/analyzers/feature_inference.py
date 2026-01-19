@@ -26,7 +26,6 @@ def analyze_feature_inference(rows: list[dict]) -> dict:
             continue
 
         unique_ratio = series.nunique() / len(series)
-        warnings = []
 
         #Binary
         if set(series.unique()).issubset({0, 1, True, False}):

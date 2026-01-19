@@ -21,11 +21,15 @@ class Logger:
         if self.log_file:
                 with open(self.log_file,"a") as file:
                     file.write(log_line+"\n")
+
     def debug(self,message):
         self.log("DEBUG",message)
+
     def info(self,message):
         self.log("INFO",message)
+
     def warn(self,message):
         self.log("WARN",message)
+        
     def error(self,message):
         self.log("ERROR",message)

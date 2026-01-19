@@ -12,6 +12,7 @@ class Config:
             raise FileNotFoundError(f"file with the path{path} not found")
         with open(path,"r") as file:
             self.data=json.load(file)
+            
     def get(self,key):
         if key in os.environ:
             print("os")
